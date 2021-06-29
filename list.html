@@ -9,10 +9,29 @@
         .delete-btn{
             margin-left:5px;
         }
+        .buttons{
+            margin-top:30px;
+        }
+        .buttons>span{
+            display: inline-block;
+            line-height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            width: 120px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .buttons>span:hover{
+            background: #ccc;
+        }
     </style>
 </head>
 <body>
     <div id="list"></div>
+    <div class="buttons">
+        <span id="openAllBtn">一键全开</span>
+        <span id="closeAllBtn">一键清空</span>
+    </div>
 </body>
 <script src="list.js"></script>
 </html>
