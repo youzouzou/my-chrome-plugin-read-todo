@@ -60,7 +60,6 @@ addAll.addEventListener("click", async () => {
     chrome.windows.getAll({ populate: true }, function (windows) {
       windows.forEach(function (window) {
         window.tabs.forEach(function (tab) {
-          console.log(111, tab.url)
           tabList.unshift({
             url: tab.url,
             title: tab.title
