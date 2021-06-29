@@ -12,7 +12,7 @@
 	"browser_action": 
 	{
 		"default_icon": "images/icon.png",
-		"default_title": "阅读TODO清单",
+		"default_title": "阅读清单-by 游走走",
 		"default_popup": "popup.html"
 	},
 	"permissions":
@@ -22,7 +22,5 @@
 		"unlimitedStorage"
 	],
 	"options_page": "options.html",
-	"homepage_url": "https://github.com/youzouzou/my-chrome-plugin-read-todo",
-	"omnibox": { "keyword" : "go" },
-	"devtools_page": "devtools.html"
+	"homepage_url": "https://github.com/youzouzou/my-chrome-plugin-read-todo"
 }
