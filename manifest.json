@@ -17,14 +17,9 @@
 	},
 	"permissions":
 	[
-		"contextMenus",
 		"tabs",
-		"notifications", 
-		"webRequest", 
-		"webRequestBlocking", 
 		"storage", 
-		"http://*/*", 
-		"https://*/*"
+		"unlimitedStorage"
 	],
 	"homepage_url": "https://github.com/",
 	"omnibox": { "keyword" : "go" },
