@@ -7,7 +7,7 @@ function renderTabList() {
         if (tabs) {
             let htmlStr = ""
             for (let i = 0; i < tabs.length; i++) {
-                htmlStr += "<div>" + (i + 1) + "、<a href='" + tabs[i].url + "'>" + tabs[i].title + "</a><span id='delete_" + i + "'>删除</span></span></a></div>"
+                htmlStr += "<div>" + (i + 1) + "、<a href='" + tabs[i].url + "'>" + tabs[i].title + "</a><span class='delete-btn' id='delete_" + i + "'>删除</span></span></a></div>"
             }
             list.innerHTML = htmlStr
             for (let i = 0; i < tabs.length; i++) {
