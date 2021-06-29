@@ -1,5 +1,5 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "阅读TODO清单",
 	"version": "1.0.0",
 	"description": "__MSG_pluginDesc__",
