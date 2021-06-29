@@ -21,7 +21,8 @@
 		"storage", 
 		"unlimitedStorage"
 	],
-	"homepage_url": "https://github.com/",
+	"options_page": "options.html",
+	"homepage_url": "https://github.com/youzouzou/my-chrome-plugin-read-todo",
 	"omnibox": { "keyword" : "go" },
 	"devtools_page": "devtools.html"
 }
