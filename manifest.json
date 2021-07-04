@@ -1,24 +1,21 @@
 {
-	"manifest_version": 3,
-	"name": "阅读TODO清单",
+	"manifest_version": 2,
+	"name": "阅读TODO清单❤️",
 	"version": "1.0.0",
 	"description": "一键保存tab，轻松管理临时标签页",
-	"icons":
-	{
+	"icons": {
 		"16": "images/icon.png",
 		"48": "images/icon.png",
 		"128": "images/icon.png"
 	},
-	"browser_action": 
-	{
+	"browser_action": {
 		"default_icon": "images/icon.png",
 		"default_title": "阅读清单-by 游走走",
 		"default_popup": "popup.html"
 	},
-	"permissions":
-	[
+	"permissions": [
 		"tabs",
-		"storage", 
+		"storage",
 		"unlimitedStorage"
 	],
 	"options_page": "options.html",
